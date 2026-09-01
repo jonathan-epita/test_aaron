@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "aaron_manifest.json",
+  "type": "Manifest",
+  "label": {
+    "fr": [
+      "aaron_manifest.json"
+    ]
+  },
+  "items": [
+    {
+      "id": "/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "fr": [
+          "Page 1"
+        ]
+      },
+      "height": 1683,
+      "width": 1190,
+      "thumbnail": [
+        {
+          "id": "https://raw.githubusercontent.com/jonathan-epita/test_aaron/main/aaron/aaron_page_001.png",
+          "type": "Image",
+          "format": "image/png"
+        }
+      ],
+      "items": [
+        {
+          "id": "/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/annotation/p1/1-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://raw.githubusercontent.com/jonathan-epita/test_aaron/main/aaron/aaron_page_001.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1190,
+                "height": 1683,
+                "service": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
